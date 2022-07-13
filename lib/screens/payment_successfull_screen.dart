@@ -48,21 +48,6 @@ class _PaymentSuccessFullScreenState extends State<PaymentSuccessFullScreen> {
                       dashGapGradient: [Colors.black, Colors.black],
                       dashGapRadius: 0.0,
                     ),
-                    // Divider(
-                    //
-                    // ),
-                    // Container(
-                    //   color: Colors.white,
-                    //   height: 40.0,
-                    //   child: Center(
-                    //     child: Text(
-                    //       "---------------",
-                    //       maxLines: 1,
-                    //       // style: typoNormalTextRegular.copyWith(
-                    //       //     color: colorABGray),
-                    //     ),
-                    //   ),
-                    // ),
                     Column(
                       children: [
                         Icon(Icons.check_circle),
@@ -100,32 +85,27 @@ class _PaymentSuccessFullScreenState extends State<PaymentSuccessFullScreen> {
                 ),
                 Text("Order Placed Successfully!",style: TextStyle(fontWeight: FontWeight.bold),),
                 Text("Congratulations! Your order has been placed."),
-                Row(
-                  children: [
-                    Text("You can track your order no. "),
-                     Text("${widget.paymentId}")
-                  ],
-                ),
+                Text("You can track your order no. ${widget.paymentId} "),
                 SizedBox(height: 20,),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    Flexible(
+                      flex: 2,
                       child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               primary: Colors.grey[100]
                           ),
-                          onPressed: (){}, child: Text("Continue shopping",style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),)),
+                          onPressed: (){}, child: Text("Continue shopping",style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold, fontSize: 12),)),
                     ),
-                    //SizedBox(width: 20,),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    SizedBox(width: 5,),
+                    Flexible(
+                       flex: 2,
                       child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
                               primary: Colors.orange
                           ),
-                          onPressed: (){}, child: Text("Track order",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),)),
+                          onPressed: (){}, child: Text("Track order",style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,  fontSize: 12),)),
                     ),
                   ],
                 )

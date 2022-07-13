@@ -1,16 +1,38 @@
-# flutter_razorpay_demo
+# Flutter Razor Payment Demo
 
-A new Flutter application.
+A new Flutter app for demonstrating Razor payment demo on both including android and ios platforms.
 
-## Getting Started
+# Demo
+<img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
 
-This project is a starting point for a Flutter application.
+# Android Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android3.png" height="480px"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android4.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android5.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/android/android6.png" height="480px"></td>
+  </tr>
+ </table>
+</br>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# IOS Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios3.png" height="480px"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios4.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios5.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/ios/ios6.png" height="480px"></td>
+  </tr>
+ </table>
+
