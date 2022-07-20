@@ -3,7 +3,7 @@
 A new Flutter app for demonstrating Razor payment demo on both including android and ios platforms.
 
 # Demo
-<img src="https://github.com/MarvelApps-Flutter/share/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
+<img src="https://github.com/MarvelApps-Flutter/razor_payment_demo/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
 
 # Android Screenshots
 
